@@ -8,6 +8,7 @@ public class Day1Test {
 	{
 		System.out.println("Print this message1");
 		System.out.println("Print this message2");
+		
 	}
 
 }
