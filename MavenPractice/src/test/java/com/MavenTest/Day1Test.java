@@ -8,7 +8,7 @@ public class Day1Test {
 	{
 		System.out.println("Print this message1");
 		System.out.println("Print this message2");
-		System.out.println("Print this message3new");
+		System.out.println("Print this message3new ");
 		
 	}
 
