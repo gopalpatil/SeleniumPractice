@@ -10,16 +10,12 @@ public class GetTestDataFromExcel {
 	public void getTestCaseData() throws IOException
 	{
 		ReadWriteExcelTest a = new ReadWriteExcelTest();
-		ArrayList testData = a.getData("WebLogin");		
+		ArrayList testData = a.getData("WebLogin");		//Get all the test data form 'WebLogin' test case
 
 		int arraySize = testData.size();
 		for(int i=0;i<arraySize;i++)
 		{
-			System.out.println(testData.get(i));
-		}
-		
-			
+			System.out.println(testData.get(i)); //Print the fetched test data
+		}			
 	}
-	
-
 }
