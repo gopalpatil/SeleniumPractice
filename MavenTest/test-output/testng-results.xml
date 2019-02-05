@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="415" started-at="2019-02-01T00:25:32Z" finished-at="2019-02-01T00:25:33Z">
+  <suite name="Default suite" duration-ms="415" started-at="2019-02-04T23:18:20Z" finished-at="2019-02-04T23:18:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="415" started-at="2019-02-01T00:25:32Z" finished-at="2019-02-01T00:25:33Z">
+    <test name="Default test" duration-ms="415" started-at="2019-02-04T23:18:20Z" finished-at="2019-02-04T23:18:21Z">
       <class name="com.SeleniumWork.MavenTest.GetTestDataFromExcel">
-        <test-method status="PASS" signature="getTestCaseData()[pri:0, instance:com.SeleniumWork.MavenTest.GetTestDataFromExcel@46d56d67]" name="getTestCaseData" duration-ms="400" started-at="2019-02-01T00:25:32Z" finished-at="2019-02-01T00:25:33Z">
+        <test-method status="PASS" signature="getTestCaseData()[pri:0, instance:com.SeleniumWork.MavenTest.GetTestDataFromExcel@46d56d67]" name="getTestCaseData" duration-ms="398" started-at="2019-02-04T23:18:20Z" finished-at="2019-02-04T23:18:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTestCaseData -->
