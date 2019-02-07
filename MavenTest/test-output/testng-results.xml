@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="415" started-at="2019-02-04T23:18:20Z" finished-at="2019-02-04T23:18:21Z">
+  <suite name="Default suite" duration-ms="33" started-at="2019-02-07T00:54:09Z" finished-at="2019-02-07T00:54:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="415" started-at="2019-02-04T23:18:20Z" finished-at="2019-02-04T23:18:21Z">
-      <class name="com.SeleniumWork.MavenTest.GetTestDataFromExcel">
-        <test-method status="PASS" signature="getTestCaseData()[pri:0, instance:com.SeleniumWork.MavenTest.GetTestDataFromExcel@46d56d67]" name="getTestCaseData" duration-ms="398" started-at="2019-02-04T23:18:20Z" finished-at="2019-02-04T23:18:21Z">
+    <test name="Default test" duration-ms="33" started-at="2019-02-07T00:54:09Z" finished-at="2019-02-07T00:54:09Z">
+      <class name="com.SeleniumWork.MavenTest.Log4jTest_1">
+        <test-method status="PASS" signature="loggingInfo1()[pri:0, instance:com.SeleniumWork.MavenTest.Log4jTest_1@2f7c2f4f]" name="loggingInfo1" duration-ms="14" started-at="2019-02-07T00:54:09Z" finished-at="2019-02-07T00:54:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getTestCaseData -->
-      </class> <!-- com.SeleniumWork.MavenTest.GetTestDataFromExcel -->
+        </test-method> <!-- loggingInfo1 -->
+      </class> <!-- com.SeleniumWork.MavenTest.Log4jTest_1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
