@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33" started-at="2019-02-07T00:54:09Z" finished-at="2019-02-07T00:54:09Z">
+  <suite name="Default suite" duration-ms="27" started-at="2019-02-12T00:31:55Z" finished-at="2019-02-12T00:31:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33" started-at="2019-02-07T00:54:09Z" finished-at="2019-02-07T00:54:09Z">
+    <test name="Default test" duration-ms="27" started-at="2019-02-12T00:31:55Z" finished-at="2019-02-12T00:31:55Z">
       <class name="com.SeleniumWork.MavenTest.Log4jTest_1">
-        <test-method status="PASS" signature="loggingInfo1()[pri:0, instance:com.SeleniumWork.MavenTest.Log4jTest_1@2f7c2f4f]" name="loggingInfo1" duration-ms="14" started-at="2019-02-07T00:54:09Z" finished-at="2019-02-07T00:54:09Z">
+        <test-method status="PASS" signature="loggingInfo1()[pri:0, instance:com.SeleniumWork.MavenTest.Log4jTest_1@6973b51b]" name="loggingInfo1" duration-ms="12" started-at="2019-02-12T00:31:55Z" finished-at="2019-02-12T00:31:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loggingInfo1 -->
