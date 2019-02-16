@@ -17,9 +17,7 @@ public class JOBillingPageTest extends Base {
 		driver.get("http://2077-w08-vm6/AuthPortalP3/Billing/JoBilling");
 		
 		JOBillingPage jopage = new JOBillingPage(driver);
-		
-		System.out.println("TEST 123");
-		System.out.println(driver.getTitle());
+
 		jopage.get_JOSearchBox().sendKeys("36927");
 		jopage.get_JOSearchBox().sendKeys(Keys.ENTER);
 		
