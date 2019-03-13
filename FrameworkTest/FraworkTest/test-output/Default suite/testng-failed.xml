@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.SeleniumWork.FraworkTest.JOBillingPageTest">
+      <class name="com.SeleniumWork.FraworkTest.DataBaseTest">
         <methods>
-          <include name="searchJO"/>
+          <include name="validateInDB"/>
         </methods>
-      </class> <!-- com.SeleniumWork.FraworkTest.JOBillingPageTest -->
+      </class> <!-- com.SeleniumWork.FraworkTest.DataBaseTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

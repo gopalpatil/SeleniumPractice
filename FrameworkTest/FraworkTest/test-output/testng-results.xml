@@ -1,17 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="3" total="6" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14595" started-at="2019-02-16T18:38:11Z" finished-at="2019-02-16T18:38:26Z">
+  <suite name="Suite" duration-ms="28" started-at="2019-03-13T10:01:48Z" finished-at="2019-03-13T10:01:48Z">
     <groups>
+      <group name="MainGroup_Defaul">
+        <method signature="GroupingTest.test3()[pri:0, instance:com.SeleniumWork.FraworkTest.GroupingTest@4d50efb8]" name="test3" class="com.SeleniumWork.FraworkTest.GroupingTest"/>
+        <method signature="GroupingTest.test5()[pri:4, instance:com.SeleniumWork.FraworkTest.GroupingTest@4d50efb8]" name="test5" class="com.SeleniumWork.FraworkTest.GroupingTest"/>
+        <method signature="GroupingTest.test6()[pri:0, instance:com.SeleniumWork.FraworkTest.GroupingTest@4d50efb8]" name="test6" class="com.SeleniumWork.FraworkTest.GroupingTest"/>
+      </group> <!-- MainGroup_Defaul -->
+      <group name="Group 1">
+        <method signature="GroupingTest.test3()[pri:0, instance:com.SeleniumWork.FraworkTest.GroupingTest@4d50efb8]" name="test3" class="com.SeleniumWork.FraworkTest.GroupingTest"/>
+        <method signature="GroupingTest.test5()[pri:4, instance:com.SeleniumWork.FraworkTest.GroupingTest@4d50efb8]" name="test5" class="com.SeleniumWork.FraworkTest.GroupingTest"/>
+      </group> <!-- Group 1 -->
+      <group name="Group 3">
+        <method signature="GroupingTest.test5()[pri:4, instance:com.SeleniumWork.FraworkTest.GroupingTest@4d50efb8]" name="test5" class="com.SeleniumWork.FraworkTest.GroupingTest"/>
+        <method signature="GroupingTest.test6()[pri:0, instance:com.SeleniumWork.FraworkTest.GroupingTest@4d50efb8]" name="test6" class="com.SeleniumWork.FraworkTest.GroupingTest"/>
+      </group> <!-- Group 3 -->
     </groups>
-    <test name="Default test" duration-ms="14595" started-at="2019-02-16T18:38:11Z" finished-at="2019-02-16T18:38:26Z">
-      <class name="com.SeleniumWork.FraworkTest.JOBillingPageTest">
-        <test-method status="PASS" signature="searchJO()[pri:0, instance:com.SeleniumWork.FraworkTest.JOBillingPageTest@482f8f11]" name="searchJO" duration-ms="14568" started-at="2019-02-16T18:38:11Z" finished-at="2019-02-16T18:38:26Z">
+    <test name="Test" duration-ms="28" started-at="2019-03-13T10:01:48Z" finished-at="2019-03-13T10:01:48Z">
+      <class name="com.SeleniumWork.FraworkTest.GroupingTest">
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.SeleniumWork.FraworkTest.GroupingTest@4d50efb8]" name="test3" duration-ms="7" started-at="2019-03-13T10:01:48Z" finished-at="2019-03-13T10:01:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchJO -->
-      </class> <!-- com.SeleniumWork.FraworkTest.JOBillingPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test6()[pri:0, instance:com.SeleniumWork.FraworkTest.GroupingTest@4d50efb8]" name="test6" duration-ms="1" started-at="2019-03-13T10:01:48Z" finished-at="2019-03-13T10:01:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method status="PASS" signature="test5()[pri:4, instance:com.SeleniumWork.FraworkTest.GroupingTest@4d50efb8]" name="test5" duration-ms="1" started-at="2019-03-13T10:01:48Z" finished-at="2019-03-13T10:01:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+      </class> <!-- com.SeleniumWork.FraworkTest.GroupingTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

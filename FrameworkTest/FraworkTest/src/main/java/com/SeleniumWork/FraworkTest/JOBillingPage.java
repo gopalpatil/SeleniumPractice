@@ -13,6 +13,9 @@ public class JOBillingPage {
 	@FindBy(xpath ="//input[@id='FilterO_1']")
 	WebElement JOSearchBox;
 	
+	@FindBy(xpath = "//button[contains(text(),'Initiate Billing')]")
+	WebElement btn_InitiateBilling;
+	
 	public JOBillingPage(WebDriver driver)
 	{
 		this.driver = driver;
@@ -22,6 +25,10 @@ public class JOBillingPage {
 	public WebElement get_JOSearchBox()
 	{
 		return JOSearchBox;
+	}
+	public WebElement get_btn_InitiateBilling()
+	{
+		return btn_InitiateBilling;
 	}
 
 }
