@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.SeleniumWork.FraworkTest.MyClassListners"/>
+    <listener class-name="com.SeleniumWork.FraworkTest.MyExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.SeleniumWork.FraworkTest.Temp1">
+        <methods>
+          <include name="test4"/>
+          <include name="test1"/>
+          <include name="test3"/>
+          <include name="test2"/>
+          <include name="test5"/>
+          <include name="test6"/>
+        </methods>
+      </class> <!-- com.SeleniumWork.FraworkTest.Temp1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

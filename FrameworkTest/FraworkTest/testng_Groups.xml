@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<groups>
+			<define name="Include_Group1">
+				<include name="Group 1" />
+				<include name="Group 3" />
+			</define>
+			
+			<define name="Exlude_Group1">
+				<include name="Group 2" />				
+			</define>
+			<run>
+				<include name="Include_Group1" />
+				<exclude name="Exlude_Group1" />
+			</run>
+		</groups>
+
+		<classes>
+			<class name="com.SeleniumWork.FraworkTest.GroupingTest" />
+
+		</classes>
+	</test>
+</suite> 

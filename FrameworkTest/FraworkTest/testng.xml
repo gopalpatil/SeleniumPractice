@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<!-- <listeners> <listener class-name="com.SeleniumWork.FraworkTest.MyClassListners" 
+		/> <listener class-name="com.SeleniumWork.FraworkTest.MyExtentReportListener" 
+		/> </listeners> -->
+
+	<groups>
+		<run>
+			<include name="Group 2" />
+			<include name="Group 2" />
+		</run>
+	</groups>
+
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.SeleniumWork.FraworkTest.Temp1" />
+			<!-- <class name="com.SeleniumWork.FraworkTest.JOBillingPageTest" /> -->
+			<!-- <class name="com.SeleniumWork.FraworkTest.JOBillingItemsPageTest" /> -->
+		</classes>
+	</test> 
+</suite> 
