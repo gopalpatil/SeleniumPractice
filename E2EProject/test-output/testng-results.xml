@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12961" started-at="2019-03-18T14:29:22Z" finished-at="2019-03-18T14:29:35Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12961" started-at="2019-03-18T14:29:22Z" finished-at="2019-03-18T14:29:35Z">
+      <class name="com.E2EFramework.E2EProject.HomePageTest">
+        <test-method status="PASS" signature="initate()[pri:0, instance:com.E2EFramework.E2EProject.HomePageTest@26653222]" name="initate" is-config="true" duration-ms="5804" started-at="2019-03-18T14:29:22Z" finished-at="2019-03-18T14:29:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initate -->
+        <test-method status="PASS" signature="verifyWebPageTitle()[pri:1, instance:com.E2EFramework.E2EProject.HomePageTest@26653222]" name="verifyWebPageTitle" duration-ms="16" started-at="2019-03-18T14:29:28Z" finished-at="2019-03-18T14:29:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWebPageTitle -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.E2EFramework.E2EProject.HomePageTest@26653222]" name="closeBrowser" is-config="true" duration-ms="630" started-at="2019-03-18T14:29:28Z" finished-at="2019-03-18T14:29:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.E2EFramework.E2EProject.HomePageTest -->
+      <class name="com.E2EFramework.E2EProject.JobOrderBillingPageTest">
+        <test-method status="PASS" signature="initiate()[pri:0, instance:com.E2EFramework.E2EProject.JobOrderBillingPageTest@3532ec19]" name="initiate" is-config="true" duration-ms="5846" started-at="2019-03-18T14:29:29Z" finished-at="2019-03-18T14:29:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method status="PASS" signature="verify_lbl_SelectJobOrder()[pri:1, instance:com.E2EFramework.E2EProject.JobOrderBillingPageTest@3532ec19]" name="verify_lbl_SelectJobOrder" duration-ms="28" started-at="2019-03-18T14:29:35Z" finished-at="2019-03-18T14:29:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_lbl_SelectJobOrder -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.E2EFramework.E2EProject.JobOrderBillingPageTest@3532ec19]" name="closeBrowser" is-config="true" duration-ms="620" started-at="2019-03-18T14:29:35Z" finished-at="2019-03-18T14:29:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.E2EFramework.E2EProject.JobOrderBillingPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
