@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Bank ABC">
+  <test thread-count="5" name="Loan Department">
+    <classes>
+      <class name="com.TestNG.BikeLoan">
+      	<methods>
+     	 	<include name = "bikeLoanLoginMobile"/>     	 
+      	</methods>
+      </class>
+      <class name="com.TestNG.HomeLoan">
+     	 <methods>
+      		<exclude name = "homeLoanLoginAPI"/>     	 		 
+      	 </methods>
+      </class>
+      <class name="com.TestNG.CarLoan"/>
+    </classes>
+  </test> 
+</suite> 

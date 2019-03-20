@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Bank ABC">
+  <test thread-count="5" name="Loan Department">  
+  	<groups>
+  		<run>
+  			<include  name="SmokeTest"/>
+  		</run>
+  	</groups>
+    <classes>
+      <class name="com.TestNG.BikeLoan"/>
+      <class name="com.TestNG.HomeLoan"/>
+      <class name="com.TestNG.CarLoan"/>
+    </classes>
+  </test> 
+</suite> 

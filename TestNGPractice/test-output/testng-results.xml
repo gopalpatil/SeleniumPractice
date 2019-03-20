@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="9" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Bank ABC" duration-ms="33" started-at="2019-01-25T00:17:55Z" finished-at="2019-01-25T00:17:55Z">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="ACarLoan.carLoanLoginWeb()[pri:0, instance:com.TestNG.ACarLoan@4439f31e]" name="carLoanLoginWeb" class="com.TestNG.ACarLoan"/>
+      </group> <!-- SmokeTest -->
+      <group name="RTest">
+        <method signature="HomeLoan.homeLoanLoginMobile()[pri:0, instance:com.TestNG.HomeLoan@56f4468b]" name="homeLoanLoginMobile" class="com.TestNG.HomeLoan"/>
+        <method signature="HomeLoan.homeLoanLoginWeb()[pri:0, instance:com.TestNG.HomeLoan@56f4468b]" name="homeLoanLoginWeb" class="com.TestNG.HomeLoan"/>
+      </group> <!-- RTest -->
+    </groups>
+    <test name="Loan Department" duration-ms="33" started-at="2019-01-25T00:17:55Z" finished-at="2019-01-25T00:17:55Z">
+      <class name="com.TestNG.BikeLoan">
+        <test-method status="PASS" signature="bikeLoanLogin1Web()[pri:0, instance:com.TestNG.BikeLoan@5d5eef3d]" name="bikeLoanLogin1Web" duration-ms="1" started-at="2019-01-25T00:17:55Z" finished-at="2019-01-25T00:17:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bikeLoanLogin1Web -->
+        <test-method status="FAIL" signature="bikeLoanLoginAPI()[pri:0, instance:com.TestNG.BikeLoan@5d5eef3d]" name="bikeLoanLoginAPI" duration-ms="1" started-at="2019-01-25T00:17:55Z" finished-at="2019-01-25T00:17:55Z">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at com.TestNG.BikeLoan.bikeLoanLoginAPI(BikeLoan.java:17)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bikeLoanLoginAPI -->
+        <test-method status="PASS" signature="bikeLoanLoginMobile()[pri:0, instance:com.TestNG.BikeLoan@5d5eef3d]" name="bikeLoanLoginMobile" duration-ms="0" started-at="2019-01-25T00:17:55Z" finished-at="2019-01-25T00:17:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bikeLoanLoginMobile -->
+      </class> <!-- com.TestNG.BikeLoan -->
+      <class name="com.TestNG.ACarLoan">
+        <test-method status="PASS" signature="carLoanLoginAPI()[pri:0, instance:com.TestNG.ACarLoan@4439f31e]" name="carLoanLoginAPI" duration-ms="6" started-at="2019-01-25T00:17:55Z" finished-at="2019-01-25T00:17:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoanLoginAPI -->
+        <test-method status="PASS" signature="carLoanLoginMobile()[pri:0, instance:com.TestNG.ACarLoan@4439f31e]" name="carLoanLoginMobile" duration-ms="0" started-at="2019-01-25T00:17:55Z" finished-at="2019-01-25T00:17:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoanLoginMobile -->
+        <test-method status="PASS" signature="carLoanLoginWeb()[pri:0, instance:com.TestNG.ACarLoan@4439f31e]" name="carLoanLoginWeb" duration-ms="1" started-at="2019-01-25T00:17:55Z" finished-at="2019-01-25T00:17:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoanLoginWeb -->
+      </class> <!-- com.TestNG.ACarLoan -->
+      <class name="com.TestNG.HomeLoan">
+        <test-method status="PASS" signature="homeLoanLoginAPI()[pri:0, instance:com.TestNG.HomeLoan@56f4468b]" name="homeLoanLoginAPI" duration-ms="0" started-at="2019-01-25T00:17:55Z" finished-at="2019-01-25T00:17:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeLoanLoginAPI -->
+        <test-method status="PASS" signature="homeLoanLoginMobile()[pri:0, instance:com.TestNG.HomeLoan@56f4468b]" name="homeLoanLoginMobile" duration-ms="1" started-at="2019-01-25T00:17:55Z" finished-at="2019-01-25T00:17:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeLoanLoginMobile -->
+        <test-method status="PASS" signature="homeLoanLoginWeb()[pri:0, instance:com.TestNG.HomeLoan@56f4468b]" name="homeLoanLoginWeb" duration-ms="1" started-at="2019-01-25T00:17:55Z" finished-at="2019-01-25T00:17:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeLoanLoginWeb -->
+      </class> <!-- com.TestNG.HomeLoan -->
+    </test> <!-- Loan Department -->
+  </suite> <!-- Bank ABC -->
+</testng-results>

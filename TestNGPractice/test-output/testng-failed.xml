@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Bank ABC]" parallel="tests">
+  <test thread-count="5" name="Loan Department(failed)" parallel="tests">
+    <classes>
+      <class name="com.TestNG.BikeLoan">
+        <methods>
+          <include name="bikeLoanLoginAPI"/>
+        </methods>
+      </class> <!-- com.TestNG.BikeLoan -->
+    </classes>
+  </test> <!-- Loan Department(failed) -->
+</suite> <!-- Failed suite [Bank ABC] -->
